@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #0b1e3d;
+}
+
+h1, h2, h3, h4 {
+    color: #0b1e3d;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+    color: #f9c784 !important;
+}
+
+.btn-primary {
+    background-color: #f9c784;
+    border: none;
+    color: #0b1e3d;
+}
+
+.btn-primary:hover {
+    background-color: #e6b76b;
+    color: #0b1e3d;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #0b1e3d;
+}
+
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #f9c784;
+    box-shadow: 0 0 5px rgba(249,199,132,0.5);
+    outline: none;
+}
